@@ -1,14 +1,14 @@
 {
   "has_precipitation": false,
-  "temperature": 0.4,
+  "temperature": 0.5,
   "temperature_modifier": "none",
-  "downfall": 0.4,
+  "downfall": 0.5,
   "attributes": {
-    "visual/sky_color": "#cfafff",
+    "visual/sky_color": "#9f937f",
     "visual/sky_fog_end_distance": 64
   },
   "effects": {
-    "water_color": "#6f6f7f"
+    "water_color": "#7f9fcf"
   },
   "carvers": "minecraft:nether_cave",
   "creature_spawn_probability": 0.02,
