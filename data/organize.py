@@ -16,6 +16,8 @@ def ls(file,file_list=[]):
 list = ls('data')
 
 for path in list:
+    
     if path.name.endswith('.json'):
+        
         data = json.loads(path.read_text())
         path.write_text(json.dumps(data,indent=2))
