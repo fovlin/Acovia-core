@@ -5,7 +5,7 @@
   "downfall": 0.5,
   "attributes": {
     "visual/sky_color": "#9f937f",
-    "visual/sky_fog_end_distance": 64
+    "visual/fog_color": "#9f937f"
   },
   "effects": {
     "water_color": "#7f9fcf"
