@@ -17,5 +17,9 @@ list = ls('data')
 
 for path in list:
     if path.name.endswith('.json'):
-        data = json.loads(path.read_text())
-        path.write_text(json.dumps(data,indent=2))
+        try:
+            data = json.loads(path.read_text())
+            path.write_text(json.dumps(data,indent=2))
+        except:
+            print('Found error in json file: ')
+            print(path)
