@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:flowers",
+    "diamond"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "item_model": "minecraft:torchflower",
+      "item_name": {
+        "text": "Flower_of_regeneration",
+        "color": "yellow",
+        "shadow_color": [
+          0,
+          1,
+          1,
+          0.5
+        ]
+      },
+      "minecraft:custom_data": {
+        "acovia:flower_of_regeneration": true
+      },
+      "enchantment_glint_override": true,
+      "death_protection": {
+        "death_effects": [
+          {
+            "type": "apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:fire_resistance",
+                "duration": 1000,
+                "amplifier": 0
+              },
+              {
+                "id": "minecraft:resistance",
+                "duration": 30,
+                "amplifier": 9
+              },
+              {
+                "id": "minecraft:regeneration",
+                "duration": 30,
+                "amplifier": 9
+              }
+            ]
+          }
+        ]
+      },
+      "equippable": {
+        "slot": "head",
+        "swappable": false,
+        "equip_sound": "block.flowering_azalea.place"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "description": {
+    "text": "Explode",
+    "color": "gold"
+  },
+  "anvil_cost": 16,
+  "max_level": 1,
+  "weight": 1,
+  "min_cost": {
+    "base": 32,
+    "per_level_above_first": 16
+  },
+  "max_cost": {
+    "base": 64,
+    "per_level_above_first": 16
+  },
+  "supported_items": [
+    "minecraft:bow"
+  ],
+  "primary_items": [],
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "exclusive_set": [],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "explode",
+              "large_particle": {
+                "type": "lava"
+              },
+              "small_particle": {
+                "type": "lava"
+              },
+              "radius": 4,
+              "damage_type": "player_explosion",
+              "attribute_to_user": true,
+              "sound": "entity.generic.explode",
+              "block_interaction": "none",
+              "create_fire": true
+            },
+            {
+              "type": "run_function",
+              "function": "acovia:enchantment/explode"
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": {
+              "item": {
+                "id": "minecraft:arrow"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "explode",
+              "large_particle": {
+                "type": "lava"
+              },
+              "small_particle": {
+                "type": "lava"
+              },
+              "radius": 4,
+              "sound": "entity.generic.explode",
+              "block_interaction": "none",
+              "create_fire": true
+            },
+            {
+              "type": "run_function",
+              "function": "acovia:enchantment/explode"
+            }
+          ]
+        },
+        "affected": "victim",
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "damage_source_properties",
+          "predicate": {
+            "is_direct": false
+          }
+        }
+      }
+    ]
+  }
+}

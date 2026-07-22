@@ -1,0 +1,42 @@
+{
+  "description": {
+    "text": "Control_AI"
+  },
+  "anvil_cost": 5,
+  "max_level": 1,
+  "weight": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 12
+  },
+  "supported_items": [
+    "minecraft:golden_spear"
+  ],
+  "primary_items": [],
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": [],
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "acovia:enchantment/control_ai"
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "attack_damage",
+        "operation": "add_multiplied_base",
+        "id": "minecraft:attack_damage",
+        "amount": -1
+      }
+    ]
+  }
+}

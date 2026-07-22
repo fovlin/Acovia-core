@@ -1,0 +1,1 @@
+data merge block ~ ~-1 ~ {lock:{components:{item_name:{text:"KEY",color:"#ffaf00"}}}}

@@ -1,0 +1,563 @@
+{
+  "type": "simple_block",
+  "config": {
+    "to_place": {
+      "type": "rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "would_survive",
+            "state": {
+              "Name": "tall_grass"
+            }
+          },
+          "then": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "short_grass"
+                },
+                "weight": 20
+              },
+              {
+                "data": {
+                  "Name": "minecraft:dandelion"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:open_eyeblossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:poppy"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:blue_orchid"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:allium"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:azure_bluet"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:red_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:orange_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:white_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pink_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:oxeye_daisy"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cornflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:lily_of_the_valley"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:wither_rose"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:torchflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:closed_eyeblossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:golden_dandelion"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:sunflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:lilac"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:peony"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:rose_bush"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pitcher_plant"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:flowering_azalea_leaves"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:flowering_azalea"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:mangrove_propagule"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cherry_leaves"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pink_petals"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:wildflowers"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:chorus_flower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:spore_blossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cactus_flower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:dandelion"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:open_eyeblossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:poppy"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:blue_orchid"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:allium"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:azure_bluet"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:red_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:orange_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:white_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pink_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:oxeye_daisy"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cornflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:lily_of_the_valley"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:wither_rose"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:torchflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:closed_eyeblossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:golden_dandelion"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:sunflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:lilac"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:peony"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:rose_bush"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pitcher_plant"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:flowering_azalea"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:mangrove_propagule"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pink_petals"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:wildflowers"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:chorus_flower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:spore_blossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cactus_flower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:dandelion"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:open_eyeblossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:poppy"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:blue_orchid"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:allium"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:azure_bluet"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:red_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:orange_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:white_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pink_tulip"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:oxeye_daisy"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cornflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:lily_of_the_valley"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:wither_rose"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:torchflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:closed_eyeblossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:golden_dandelion"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:sunflower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:lilac"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:peony"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:rose_bush"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pitcher_plant"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:flowering_azalea"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:mangrove_propagule"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pink_petals"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:wildflowers"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:chorus_flower"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:spore_blossom"
+                },
+                "weight": 100
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cactus_flower"
+                },
+                "weight": 100
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

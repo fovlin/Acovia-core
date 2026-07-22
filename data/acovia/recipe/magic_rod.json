@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:diamond",
+    "B": "minecraft:stick",
+    "C": "minecraft:lapis_lazuli"
+  },
+  "pattern": [
+    "AAA",
+    "CBC",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_spear",
+    "components": {
+      "item_name": {
+        "text": "\u9b54\u5bfc\u68d2",
+        "color": "light_purple"
+      },
+      "item_model": "stick",
+      "minecraft:minimum_attack_charge": 1,
+      "minecraft:piercing_weapon": {
+        "sound": "entity.ender_dragon.shoot"
+      },
+      "minecraft:max_stack_size": 1,
+      "attribute_modifiers": [
+        {
+          "type": "attack_speed",
+          "id": "minecraft:base_attack_speed",
+          "operation": "add_value",
+          "amount": -3.2
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type": "simple_block",
+  "config": {
+    "to_place": {
+      "type": "rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "would_survive",
+            "state": {
+              "Name": "tall_grass"
+            }
+          },
+          "then": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "short_grass"
+                },
+                "weight": 20
+              },
+              {
+                "data": {
+                  "Name": "tall_grass"
+                },
+                "weight": 40
+              },
+              {
+                "data": {
+                  "Name": "fern"
+                },
+                "weight": 20
+              },
+              {
+                "data": {
+                  "Name": "bush"
+                },
+                "weight": 20
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

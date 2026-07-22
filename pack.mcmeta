@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "min_format": 0,
+        "max_format": [100, 0],
+        "description": "Another world",
+        "supported_formats": [0, 100],
+        "pack_format": 100
+    }
+}

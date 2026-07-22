@@ -1,0 +1,79 @@
+{
+  "description": {
+    "text": "Makeway"
+  },
+  "anvil_cost": 5,
+  "max_level": 1,
+  "weight": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 12
+  },
+  "supported_items": [
+    "minecraft:golden_shovel"
+  ],
+  "primary_items": [],
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": [],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "replace_block",
+          "block_state": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:stone"
+                },
+                "weight": 40
+              },
+              {
+                "data": {
+                  "Name": "minecraft:cobblestone"
+                },
+                "weight": 20
+              },
+              {
+                "data": {
+                  "Name": "cracked_stone_bricks"
+                },
+                "weight": 10
+              },
+              {
+                "data": {
+                  "Name": "mossy_cobblestone"
+                },
+                "weight": 10
+              },
+              {
+                "data": {
+                  "Name": "stone_bricks"
+                },
+                "weight": 20
+              }
+            ]
+          },
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        },
+        "requirements": [
+          {
+            "condition": "block_state_property",
+            "block": "dirt_path"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "reload": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "acovia:set_data/clear_advancements"
+  }
+}

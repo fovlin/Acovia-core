@@ -1,0 +1,58 @@
+{
+  "description": "Lightning",
+  "anvil_cost": 5,
+  "max_level": 1,
+  "weight": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 12
+  },
+  "supported_items": [
+    "minecraft:bow"
+  ],
+  "primary_items": [],
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "acovia:enchantment/block_lightning"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": {
+              "item": {
+                "id": "minecraft:arrow"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "acovia:enchantment/lightning"
+        },
+        "affected": "victim",
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "damage_source_properties",
+          "predicate": {
+            "is_direct": false
+          }
+        }
+      }
+    ]
+  }
+}

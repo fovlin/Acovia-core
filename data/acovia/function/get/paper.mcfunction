@@ -1,0 +1,2 @@
+give @s paper[consumable={animation:"bow",sound:{sound_id:"",range:16},on_consume_effects:[{type:play_sound,sound:{sound_id:"item.totem.use"}}],has_consume_particles:false,consume_seconds:2},custom_data={"acovia:back_acovia":true}]
+advancement revoke @s only acovia:back_acovia

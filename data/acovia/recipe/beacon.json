@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "beacon",
+    "conduit"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:beacon",
+    "components": {
+      "item_name": {
+        "text": "\u6f6e\u6d8c\u4fe1\u6807",
+        "color": "aqua"
+      },
+      "lore": [
+        {
+          "text": "\u6fc0\u6d3b\u53ef\u751f\u6210\u4e00\u7247\u5e87\u62a4\u533a\u57df\uff0c\u4ec5\u9650\u653e\u7f6e\u4e00\u6b21\uff0c\u7834\u574f\u540e\u6389\u843d\u666e\u901a\u4fe1\u6807"
+        }
+      ],
+      "minecraft:block_entity_data": {
+        "id": "minecraft:beacon",
+        "primary_effect": "minecraft:conduit_power"
+      }
+    }
+  }
+}
