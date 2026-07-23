@@ -4,8 +4,8 @@
   "temperature_modifier": "none",
   "downfall": 0.5,
   "attributes": {
-    "visual/sky_color": "#9f937f",
-    "visual/fog_color": "#9f937f"
+    "visual/sky_color": "#afa38f",
+    "visual/fog_color": "#afa38f"
   },
   "effects": {
     "water_color": "#7f9fcf"
@@ -71,6 +71,7 @@
     [
       "acovia:huge_brown_mushroom",
       "acovia:ancient_spruce",
+      "acovia:clay_pool_with_dripleaves",
       "acovia:jungle_tree",
       "acovia:ancient_grass",
       "acovia:mega_jungle_tree",

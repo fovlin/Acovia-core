@@ -1,9 +1,9 @@
 {
     "pack": {
         "min_format": 0,
-        "max_format": [100, 0],
-        "description": "Another world",
-        "supported_formats": [0, 100],
-        "pack_format": 100
+        "max_format": [256, 0],
+        "description": "Acovia minecraft server core datapack",
+        "supported_formats": [0, 256],
+        "pack_format": 256
     }
 }
