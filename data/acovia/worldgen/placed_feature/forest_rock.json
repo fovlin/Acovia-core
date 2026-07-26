@@ -10,11 +10,18 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
     },
     {
       "type": "minecraft:surface_water_depth_filter",
       "max_water_depth": 0
+    },
+    {
+      "type": "block_predicate_filter",
+      "predicate": {
+        "type": "matching_block_tag",
+        "tag": "air"
+      }
     },
     {
       "type": "minecraft:biome"

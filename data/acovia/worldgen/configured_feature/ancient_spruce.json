@@ -63,7 +63,7 @@
       },
       "mangrove_root_placement": {
         "can_grow_through": [],
-        "max_root_length": 32,
+        "max_root_length": 16,
         "max_root_width": 12,
         "muddy_roots_in": [],
         "muddy_roots_provider": {

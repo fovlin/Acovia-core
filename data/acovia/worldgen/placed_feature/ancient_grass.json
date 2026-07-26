@@ -22,10 +22,8 @@
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
-        "type": "minecraft:would_survive",
-        "state": {
-          "Name": "minecraft:tall_grass"
-        }
+        "type": "minecraft:matching_block_tag",
+        "tag": "minecraft:air"
       }
     }
   ]
