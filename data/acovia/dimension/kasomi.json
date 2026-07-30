@@ -5,7 +5,7 @@
     "settings": "minecraft:overworld",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "minecraft:old_growth_spruce_taiga"
+      "biome": "acovia:ancient_forest"
     }
   }
 }
