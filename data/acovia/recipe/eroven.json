@@ -11,17 +11,17 @@
     "components": {
       "item_model": "minecraft:torchflower",
       "item_name": {
-        "text": "Flower_of_regeneration",
-        "color": "yellow",
+        "text": "eroven",
+        "color": "gold",
         "shadow_color": [
           0,
-          1,
-          1,
+          0.7,
+          0.7,
           0.5
         ]
       },
       "minecraft:custom_data": {
-        "acovia:flower_of_regeneration": true
+        "acovia:eroven": true
       },
       "enchantment_glint_override": true,
       "death_protection": {
