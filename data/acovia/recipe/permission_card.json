@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:nether_star",
+    "B": "minecraft:command_block"
+  },
+  "pattern": [
+    "  B",
+    " B ",
+    "A  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_shovel",
+    "components": {
+      "item_name": {
+        "text": "\u94fa\u8def\u68d2",
+        "color": "yellow"
+      },
+      "item_model": "stick",
+      "minecraft:max_stack_size": 1,
+      "unbreakable": {},
+      "minecraft:tool": {
+        "can_destroy_blocks_in_creative": false,
+        "default_mining_speed": 0,
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/shovel",
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#mineable/axe",
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#mineable/hoe",
+            "correct_for_drops": true
+          }
+        ]
+      },
+      "minecraft:enchantments": {
+        "acovia:make_way": 1
+      }
+    }
+  }
+}

@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "acovia:set_data/clear_advancements"
+    "function": "acovia:base/clear_advancements"
   }
 }
