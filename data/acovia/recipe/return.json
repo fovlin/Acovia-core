@@ -17,12 +17,6 @@
     "components": {
       "max_damage": 2560,
       "minecraft:unbreakable": {},
-      "minecraft:lore": [
-        {
-          "text": "\u6216\u8bb8...\u662f\u65f6\u5019\u6539\u9020\u8fc7\u53bb\u4e86",
-          "color": "red"
-        }
-      ],
       "minecraft:tool": {
         "rules": [
           {

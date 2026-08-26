@@ -1,23 +1,51 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    "minecraft:nether_star",
-    "minecraft:command_block"
+  "key": {
+    "A": "minecraft:nether_star",
+    "B": "minecraft:command_block"
+  },
+  "pattern": [
+    "  B",
+    " B ",
+    "A  "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:nether_star",
+    "id": "minecraft:golden_shovel",
     "components": {
-      "custom_data":{
-        "acovia:permission": true
-      },
       "item_name": {
-        "text": "Permission card",
-        "color": "aqua"
+        "text": "\u94fa\u8def\u68d2",
+        "color": "yellow"
       },
+      "item_model": "stick",
       "minecraft:max_stack_size": 1,
-      "unbreakable": {}
+      "unbreakable": {},
+      "minecraft:tool": {
+        "can_destroy_blocks_in_creative": false,
+        "default_mining_speed": 0,
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/shovel",
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#mineable/axe",
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#mineable/hoe",
+            "correct_for_drops": true
+          }
+        ]
+      },
+      "minecraft:enchantments": {
+        "acovia:make_way": 1
+      }
     }
   }
 }
