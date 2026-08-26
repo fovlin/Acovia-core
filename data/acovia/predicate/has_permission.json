@@ -1,0 +1,21 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "minecraft:equipment": {
+            "mainhand": {
+                "items": "written_book",
+                "components": {
+                    "custom_data": {
+                        "acovia:permission":true
+                    },
+                    "written_book_content": {
+                        "title": "Permission book",
+                        "author":"Acovia",
+                        "generation": 0
+                    }
+                }
+            }
+        }
+    }
+}
