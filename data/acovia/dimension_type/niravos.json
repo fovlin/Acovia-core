@@ -23,9 +23,9 @@
     },
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/ambient_light_color": "#3f473f",
-    "minecraft:visual/fog_color": "#13151a",
-    "minecraft:visual/sky_color": "#13151f",
-    "minecraft:visual/sky_light_color": "#5f7fcf",
+    "minecraft:visual/fog_color": "#181318",
+    "minecraft:visual/sky_color": "#000000",
+    "minecraft:visual/sky_light_color": "#ac60cd",
     "minecraft:visual/sky_light_factor": 0.0
   },
   "coordinate_scale": 1.0,
