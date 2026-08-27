@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:overworld",
+  "type": "acovia:niravos",
   "generator": {
     "type": "minecraft:noise",
     "settings": "minecraft:overworld",
